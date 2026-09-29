@@ -1,0 +1,83 @@
+@"
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# ==========================================
+# IDE / Editor
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# OS generated files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Temporary files
+# ==========================================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ==========================================
+# Python tooling
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Jupyter
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# Build / distribution
+# ==========================================
+dist/
+build/
+*.egg-info/
+
+# ==========================================
+# Node
+# ==========================================
+node_modules/
+
+# ==========================================
+# Local generated outputs
+# ==========================================
+runs/
+outputs/
+logs/
+
+# ==========================================
+# Local model/training temporary files
+# ==========================================
+*.ckpt
+*.h5
+
+# Keep project-specific trained model files
+# such as .keras and scaler.pkl tracked.
+"@ | Set-Content .gitignore
